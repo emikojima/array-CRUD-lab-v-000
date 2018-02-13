@@ -17,23 +17,24 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
- 
-  remove_element_from_end_of_array.pop
+   ary = Array.new(4)
+  ary.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
- remove_element_from_start_of_array.shift array
+    ary = Array.new(4)
+ ary.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
- 
-  retrieve_element_from_index.index[index_number]
+   ary = Array.new(4)
+    ary = Array.new(4)
+    
 end
 
 def retrieve_first_element_from_array(array)
-  
-  retrieve_first_element_from_array[0]
+    ary = Array.new(4)
+  ary[0]
 end
 
 def retrieve_last_element_from_array(array)
