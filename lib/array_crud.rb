@@ -32,9 +32,11 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  
+  ary = Array.new(4)
+  ary[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  ary = Array.new(4)
+  ary[-1]
 end
