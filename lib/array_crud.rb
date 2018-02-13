@@ -13,7 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   ary = Array.new(4)
-  ary.un element
+  ary.unshift element
 end
 
 def remove_element_from_end_of_array(array)
