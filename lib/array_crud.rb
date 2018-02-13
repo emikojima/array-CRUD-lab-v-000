@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   ary = Array.new(4)
-  ary.unshift element
+  ary.index index_number
 end
 
 def retrieve_first_element_from_array(array)
