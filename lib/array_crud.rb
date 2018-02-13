@@ -18,15 +18,17 @@ end
 
 def remove_element_from_end_of_array(array)
   ary = Array.new(4)
-  ary.unshift element
+  ary.pop element
 end
 
 def remove_element_from_start_of_array(array)
-  
+  ary = Array.new(4)
+  ary.shift element
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  ary = Array.new(4)
+  ary.unshift element
 end
 
 def retrieve_first_element_from_array(array)
