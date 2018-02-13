@@ -18,25 +18,25 @@ end
 
 def remove_element_from_end_of_array(array)
   ary = Array.new(4)
-  ary.pop 
+  ary.pop array
 end
 
 def remove_element_from_start_of_array(array)
-  ary = Array.new(4)
-  ary.shift 
+  
+  ary.shift array
 end
 
 def retrieve_element_from_index(array, index_number)
-  ary = Array.new(4)
-  ary.index(index_number)
+ 
+  ary.index[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  ary = Array.new(4)
+  
   ary[0]
 end
 
 def retrieve_last_element_from_array(array)
-  ary = Array.new(4)
+  
   ary[-1]
 end
